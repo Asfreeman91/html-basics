@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="headings" id="headings">
+        <h1>Heading Examples</h1>
+
+        <h1>This is a Heading Level 1 (h1)</h1>
+        <p>This is some content under Heading 1.</p>
+
+        <h2>This is a Heading Level 2 (h2)</h2>
+        <p>This is some content under Heading 2.</p>
+
+        <h3>This is a Heading Level 3 (h3)</h3>
+        <p>This is some content under Heading 3.</p>
+
+        <h4>This is a Heading Level 4 (h4)</h4>
+        <p>This is some content under Heading 4.</p>
+
+        <h5>This is a Heading Level 5 (h5)</h5>
+        <p>This is some content under Heading 5.</p>
+
+        <h6>This is a Heading Level 6 (h6)</h6>
+        <p>This is some content under Heading 6.</p>
+      </section>
+
+      <!-- hr tag to create a horizontal line between sections-->
+      <hr />
+
+      <section class="lists" id="lists">
+        <h1>List Examples</h1>
+
+        <h2>Ordered List (ol):</h2>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+
+        <h2>Unordered List (ul):</h2>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Cherry</li>
+        </ul>
+      </section>
+
+      <!-- hr tag to create a horizontal line between sections-->
+      <hr />
+
+      <section class="anchor-tags" id="anchor-tgs">
+        <h1>Anchor Tag Examples</h1>
+
+        <h2>External Links:</h2>
+        <p>Click the links below to visit external websites:</p>
+
+        <!-- External link to Google -->
+        <a href="https://www.google.com" target="_blank">Google</a>
+
+        <!-- External link to Wikipedia -->
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+
+        <h2>Internal Links:</h2>
+        <p>Click the links below to navigate to sections within this page:</p>
+
+        <!-- Internal link to the "Top" section -->
+        <a href="#top">Go to Top</a>
+
+        <!-- Internal link to the "About" section -->
+        <a href="#about">About Us</a>
+
+        <h2>Email Link:</h2>
+        <p>Click the email link below to send an email:</p>
+
+        <!-- Email link -->
+        <a href="mailto:info@example.com">Email Us</a>
+
+        <h2>Link with Title Attribute:</h2>
+        <p>Hover over the link to see the title attribute:</p>
+
+        <!-- Link with a title attribute -->
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          title="Visit Example.com"
+          >Example.com</a
+        >
+
+        <!-- Anchor point for internal navigation -->
+        <h2 id="top">Top</h2>
+        <p>This is the top section of the page.</p>
+
+        <!-- Another anchor point -->
+        <h2 id="about">About Us</h2>
+        <p>This is the "About Us" section of the page.</p>
+        <h2>External Links:</h2>
+        <p>Click the links below to visit external websites:</p>
+
+        <!-- External link to Google -->
+        <a href="https://www.google.com" target="_blank">Google</a>
+
+        <!-- External link to Wikipedia -->
+        <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+
+        <h2>Internal Links:</h2>
+        <p>Click the links below to navigate to sections within this page:</p>
+
+        <!-- Internal link to the "headings" section -->
+        <a href="#headings">Go to Headings</a>
+
+        <!-- Internal link to the "Lists" section -->
+        <a href="#lists">Lists</a>
+
+        <h2>Email Link:</h2>
+        <p>Click the email link below to send an email:</p>
+
+        <!-- Email link -->
+        <a href="mailto:info@example.com">Email Us</a>
+
+        <h2>Link with Title Attribute:</h2>
+        <p>Hover over the link to see the title attribute:</p>
+
+        <!-- Link with a title attribute -->
+        <a
+          href="https://www.example.com"
+          target="_blank"
+          title="Visit Example.com"
+          >Example.com</a
+        >
+      </section>
+
+      <!-- hr tag to create a horizontal line between sections-->
+      <hr />
+
+      <section class="images">
+        <h1>Images Examples</h1>
+
+        <h2>Displaying an Image:</h2>
+        <p>Below is an example of how to display an image on a web page:</p>
+
+        <!-- Image tag with source (src) attribute -->
+        <img
+          src="https://via.placeholder.com/300"
+          alt="Placeholder Image"
+          width="300"
+          height="200"
+        />
+
+        <h2>Image Attributes:</h2>
+        <p>Image tags can have several attributes:</p>
+
+        <!-- Image tag with alternative text (alt) attribute -->
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Description of the image"
+        />
+
+        <!-- Image tag with width and height attributes -->
+        <img
+          src="https://via.placeholder.com/200"
+          alt="Another Image"
+          width="200"
+          height="150"
+        />
+
+        <h2>Responsive Images:</h2>
+        <p>Use CSS to make images responsive:</p>
+
+        <!-- Responsive image with CSS class -->
+        <img
+          src="https://via.placeholder.com/400"
+          alt="Responsive Image"
+          class="responsive-image"
+        />
+
+        <style>
+          /* CSS for responsive image */
+          .responsive-image {
+            max-width: 100%;
+            height: auto;
+          }
+        </style>
+
+        In this example: The <img /> tag is used to display images. The src
+        attribute specifies the image source URL, the alt attribute provides
+        alternative text for accessibility, and the width and height attributes
+        set the dimensions of the image. It demonstrates the use of alternative
+        text (alt) to describe the image, which is important for accessibility
+        and for situations where the image cannot be displayed. The concept of
+        responsive images is introduced by adding a CSS class that makes the
+        image adapt to different screen sizes using the max-width property. This
+        HTML code provides a basic understanding of how to include images in web
+        pages, set attributes like src and alt, and make images responsive using
+        CSS.
+      </section>
+
+      <!-- hr tag to create a horizontal line between sections-->
+      <hr />
+
+      <section class="tables">
+        <h1>Tables Examples</h1>
+
+        <h2>Creating a Basic Table:</h2>
+        <p>Below is an example of how to create a simple table:</p>
+
+        <!-- Table element -->
+        <table border="1">
+          <!-- Table header row -->
+          <thead>
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+              <th>Header 3</th>
+            </tr>
+          </thead>
+          <!-- Table data rows -->
+          <tbody>
+            <tr>
+              <td>Data 1</td>
+              <td>Data 2</td>
+              <td>Data 3</td>
+            </tr>
+            <tr>
+              <td>Data 4</td>
+              <td>Data 5</td>
+              <td>Data 6</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2>Table Attributes:</h2>
+        <p>You can use attributes to customize the table:</p>
+
+        <!-- Table with attributes -->
+        <table border="1" width="50%">
+          <!-- Table header row -->
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+              <th>City</th>
+            </tr>
+          </thead>
+          <!-- Table data rows -->
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>25</td>
+              <td>New York</td>
+            </tr>
+            <tr>
+              <td>Lisa</td>
+              <td>30</td>
+              <td>Los Angeles</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- hr tag to create a horizontal line between sections-->
+      <hr />
+
+      <section class="forms">
+        <h1>Form Examples</h1>
+
+        <h2>Creating a Simple Form:</h2>
+        <p>Below is an example of how to create a basic form:</p>
+
+        <!-- Form element -->
+        <form action="" method="get">
+          <!-- Text input field -->
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <br />
+
+          <!-- Password input field -->
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+          <br />
+
+          <!-- Radio buttons -->
+          <p>Gender:</p>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <br />
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Other</label>
+          <br />
+
+          <!-- Checkboxes -->
+          <p>Select your interests:</p>
+          <input
+            type="checkbox"
+            id="programming"
+            name="interests[]"
+            value="programming"
+          />
+          <label for="programming">Programming</label>
+          <br />
+          <input
+            type="checkbox"
+            id="gaming"
+            name="interests[]"
+            value="gaming"
+          />
+          <label for="gaming">Gaming</label>
+          <br />
+          <input
+            type="checkbox"
+            id="reading"
+            name="interests[]"
+            value="reading"
+          />
+          <label for="reading">Reading</label>
+          <br />
+
+          <!-- Textarea -->
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+          <br />
+
+          <!-- Submit button -->
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <!-- hr tag to create a horizontal line between sections-->
+      <hr />
+
+      <section class="multi-pages">
+        <h1>Linking to multiple HTML pages Example</h1>
+
+        <h2>
+          We can link to multiple pages by creating anchor tags with the href
+          poiting to another html file within our repo. Click the link below to
+          go to our first multi-page example page
+        </h2>
+
+        <a href="multi-page1.html">Multi-page 1 page</a>
+      </section>
+    </div>
+  </body>
+</html>
